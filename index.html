@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:400,700|Open+Sans:700|Roboto:900=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    
+    <a name = "myHeader"></a>
+    
+    
+    <header class="header" id="myHeader">
+        <div class="container">
+           <div class="header__inner"> 
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+            </div>
+            
+            <nav class="menu">
+                <div class="btn__menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <ul class="menu__list">
+                    <li><a href="#a1">Общие сведения</a></li>
+                    <li><a href="#a2">Проекты</a></li>
+                    <li><a href="#a3">Контакты</a></li>
+                    
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </header>
+    
+    <section class="top" id="a1">
+        <div class="container">
+            <div class="top__inner">
+        <div class="top-info">
+            
+            <div class="top-info__title">
+            <h1>Общие сведения о языке JS</h1>
+            </div>
+            <div class="top-info__list">
+            При генерации страниц в Web возникает дилемма, связанная с архитектурой "клиент-сервер". Страницы можно генерировать как на стороне клиента, так и на стороне сервера. В 1995 году специалисты компании Netscape создали механизм управления страницами на клиентской стороне, разработав язык программирования JavaScript.<br><br>
+            JavaScript — это язык управления сценариями просмотра гипертекстовых страниц Web на стороне клиента. Если быть более точным, то JavaScript — это не только язык программирования на стороне клиента. Liveware, прародитель JavaScript, является средством подстановок на стороне сервера Netscape. Однако наибольшую популярность JavaScript обеспечило программирование на стороне клиента.<br>
+            <br>
+            Основная идея JavaScript состоит в возможности изменения значений атрибутов HTML-контейнеров и свойств среды отображения в процессе просмотра HTML-страницы пользователем. При этом перезагрузки страницы не происходит. На практике это выражается в том, что можно, например, изменить цвет фона страницы или интегрированную в документ картинку, открыть новое окно или выдать предупреждение.<br>
+            <br>
+            Название "JavaScript" является зарегистрированным товарным знаком компании Sun Microsystems. Реализация языка, осуществленная разработчиками Microsoft, официально называется JScript. Версии JScript совместимы (если быть совсем точным, то не до конца) с соответствующими версиями JavaScript, т.е. JavaScript является подмножеством языка JScript. В данный момент JavaScript полностью занимает нишу браузерных языков. На синтаксис JavaScript оказал влияние язык Java, откуда и произошло название JavaScript; как и Java, язык JavaScript является объектным. Однако на этом их связь заканчивается: Java и JavaScript — это разные языки, ни один не является подмножеством другого.<br>
+            <br>
+            Стандартизация языка была инициирована компанией Netscape и осуществляется ассоциацией ECMA (European Computer Manufacturers Association — Ассоциация европейских производителей компьютеров). Стандартизированная версия имеет название ECMAScript и описывается стандартом ECMA-262 (доступна в сети: на английском, на русском).<br>
+            <br>
+            Первая версия стандарта (принята в 1997 г.) примерно соответствовала JavaScript 1.1. На данный момент актуальна уже пятая редакция стандарта (принята в декабре 2009 г.), включающая мощные регулярные выражения, улучшенную поддержку строк, новые управляющие конструкции, обработку исключений try/catch, конкретизированное определение ошибок, форматирование при численном выводе и другие изменения. Отметим, что не все реализации JavaScript на сегодня полностью соответствуют стандарту ECMA. В рамках данного курса мы во всех случаях будем использовать название JavaScript.<br>
+            <br>
+            Размещение кода JavaScript на HTML-странице<br>
+            <br>
+            Во-первых, исполняет JavaScript-код браузер. В него встроен интерпретатор JavaScript. Следовательно, выполнение программы зависит от того, когда и как этот интерпретатор получает управление. Это, в свою очередь, зависит от функционального применения кода. В общем случае можно выделить четыре способа функционального применения JavaScript:<br>
+            <br>
+            <ul>
+                <li>гипертекстовая ссылка (схема URL);</li>
+                <li>обработчик события (в атрибутах, отвечающих событиям);</li>
+                <li>подстановка (entity);</li>
+                <li>вставка (контейнер).</li>
+            </ul><br>
+            <br>
+            <div class="bot-info__title">
+            <h1>Ниже вы можете применить свои полученные знания о JS при помощи лёгенького теста.</h1>
+            </div>
+        
+        </div>
+            </div>
+                </div>
+            </div>
+    </section>
+    
+    <a class="up" href = "#myHeader"><img src="images/up.png" alt=""></a>
+    
+    <section class="projects"  id="a2">
+    <div class="container">
+        <div class="title">
+        Как JS можно использовать на практике
+        </div>
+        <div>
+        <br><br>Первый блок<br><br>
+        Неоходимо создать переменную, узнать ее тип, добавить вывод на экран текста, в зависимости от значения (if else)<br>
+        <button class="btn" id="btn0">Задание 0</button>
+        <br>
+        Неоходимо запросить у пользователя знак зодиака, и в зависимости от ответа выдать всплывающее окно приветствия <br>(вместо знака зодиака, можно запросить другие данные, предполагающие несколько вариантов ответа) (switch)<br>
+        <button class="btn" id="btn1">Задание 1</button><br>
+        Неоходимо вывести все числа от 1 до 40, с использованием 3-х разных циклов<br>
+            <button class="btn" id="btn2"><a href="while.html" target="_blank" >Задание 2</a></button><br>
+        Неоходимо создать вирусную страницу с постоянно повторяющемся сообщением<br>
+        <button class="btn"><a href="virus.html" target="_blank" >Задание 3</a></button><br>
+        Неоходимо запросить у пользователя любое число больше 5, в случае правильного ответа выдать окошко с поздравлением, <br>в случае неправильного ответа вывести повторное окно с вопросом<br>
+        <button class="btn" id="btn4">Задание 4</button><br>
+        Неоходимо вывести четные числа от 8 до 20<br>
+        <button class="btn" id="btn5">Задание 5</button><br>
+        Неоходимо вывести нечетные числа от 1 до 7, пропустив 5<br>
+        <button class="btn" id="btn6">Задание 6</button><br>
+        </div>   
+    </div>
+    </section>
+    
+    <section class="test"  id="a4">
+    <div class="container"><br>
+        <div class="title">
+        Тест
+        </div>
+        <br><br>
+        Перед прохождением теста представьтесь <br>
+        <button class="btn" id="btn7">Представиться</button><br>
+            <br><br><br><iframe align="center" src="quiz.html" width="480" height="720" class="quiz-frame"></iframe><br><br><br>
+        </div>
+    </section>  
+    
+    
+    
+    <section class="bot"  id="a3">
+        <div class="container">
+            <div class="top__inner">
+        <div class="top-info">
+            
+            <div class="top-info__title">
+            <h1>Мои контакты</h1>
+            </div>
+            <div class="top-info__list">
+                <table>
+                        <tr>
+                    <td>Телефон:
+                    </td>
+                    <td>+79658866452
+                    </td>
+                    </tr>
+                        <tr>
+                    <td>E-MAIL:
+                    </td>
+                    <td>d.masyuk47@gmail.com
+                    </td>
+                    </tr>
+                        <tr>
+                    <td>Город:
+                    </td>
+                    <td>Саратов
+                    </td>
+                    </tr>
+                </table>   
+            </div> 
+        </div>
+        </div></div>
+    </section>
+    
+    
+
+    
+    <footer class="footer">
+    <div class="container">
+        <div class="footer-col">
+        <span>© 2021 Saratov</span>
+        </div>    
+    </div>
+    </footer>
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
